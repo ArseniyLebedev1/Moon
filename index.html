@@ -1,99 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moon</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moon</title>
 
-  <link rel="stylesheet" href="./fonts/fonts.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="header__container container">
-      <a class="header__logo" href="#">
-        <img class="logo" src="./icons/logo.svg" alt="Moon logo">
-      </a>
-      <nav class="header__menu menu">
-        <ul class="header__menu-list menu__list">
-          <li class="menu__item">
-            <a class="menu__link" href="#">Home</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Shop</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link menu__link-active" href="#">About</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__search">
-        <button class="header__search-button">
-          <img class="header__search-icon" src="./icons/search.svg" alt="Search icon">
-        </button>
-        <input class="header__search-input" type="text" placeholder="Search item...">
-      </div>
-      <div class="header__buttons">
-        <button class="header__button">
-          <img class="header__button-icon" src="./icons/heart.svg" alt="Heart icon">
-        </button>
-        <button class="header__button">
-          <img class="header__button-icon" src="./icons/shopping-cart.svg" alt="Shoping cart icon">
-        </button>
-        <button class="header__button">
-          <img class="header__button-icon" src="./icons/user.svg" alt="User icon">
-        </button>
-      </div>
-      <div class="header__menu-mobile">
-        <img class="menu__mobile-icon" src="./icons/menu.svg" alt="Mobile menu icon">
-      </div>
-    </div>
-  </header>
-  <main class="main">
-    <section class="about">
-      <div class="about__container container">
-        <h1 class="about__title">About Moon</h1>
-        <p class="about__description">Moon's handmade ceramic products have been <br> around since 1650, let's explore our journey</p>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-        <ul class="about__timeline">
-          <li class="about__timeline-item about__timeline-item_big">
-            <article class="about__timeline-content">
-              <h2 class="about__year">1910</h2>
-              <p class="about__text_big">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam neque sit amet consectetur adipiscing eli per sit.</p>
-              <img class="timeline-content__image" src="./images/image 1.png" alt="Pottery in 1910">
-            </article>
-          </li>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo" href="#">
+          <img class="logo" src="./icons/logo.svg" alt="Moon logo" />
+        </a>
+        <nav class="header__menu menu">
+          <ul class="header__menu-list menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Shop</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__link-active" href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__search">
+          <button class="header__search-button">
+            <img
+              class="header__search-icon"
+              src="./icons/search.svg"
+              alt="Search icon"
+            />
+          </button>
+          <input
+            class="header__search-input"
+            type="text"
+            placeholder="Search item..."
+          />
+        </div>
+        <div class="header__buttons">
+          <button class="header__button">
+            <img
+              class="header__button-icon"
+              src="./icons/heart.svg"
+              alt="Heart icon"
+            />
+          </button>
+          <button class="header__button">
+            <img
+              class="header__button-icon"
+              src="./icons/shopping-cart.svg"
+              alt="Shoping cart icon"
+            />
+          </button>
+          <button class="header__button">
+            <img
+              class="header__button-icon"
+              src="./icons/user.svg"
+              alt="User icon"
+            />
+          </button>
+        </div>
+        <div class="header__menu-mobile">
+          <img
+            class="menu__mobile-icon"
+            src="./icons/menu.svg"
+            alt="Mobile menu icon"
+          />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="about__container container">
+          <h1 class="about__title">About Moon</h1>
+          <p class="about__description">
+            Moon's handmade ceramic products have been <br />
+            around since 1650, let's explore our journey
+          </p>
+        </div>
+        <div class="timeline__container conrtainer">
+          <ul class="timeline__items">
+            <li class="timeline__item-big">
+              <article class="timeline-item-big__content">
+                <div class="timeline-year-and-description-big__container">
+                  <h2 class="timeline-item-big__title">1910</h2>
+                  <p class="timeline-item-big__description">
+                    Lorem ipsum dolor sit amet consectetur adipiscing eli mattis
+                    sit phasellus mollis sit aliquam sit nullam neque sit amet
+                    consectetur adipiscing eli per sit.
+                  </p>
+                </div>
+                <div class="timeline-item-big__description-mobile-container">
+                  <p class="timeline-item-big__description-mobile">
+                    Lorem ipsum dolor sit amet consectetur adipiscing eli mattis
+                    sit phasellus mollis sit aliquam sit nullam neque phasellus.
+                  </p>
+                </div>
+                <div class="timeline-item-big-image__container">
+                  <img
+                    class="timeline-item-big__image"
+                    src="./images/image 1.png"
+                    alt="Pottery in 1910"
+                  />
+                </div>
+              </article>
+            </li>
 
-          <li class="about__timeline-item">
-            <article class="about__timeline-content">
-              <div class="timeline-item__container">
-                <div class="year-and-text">
-              <h2 class="about__year">1990</h2>
-              <p class="about__text">Maecenas sem eros, rutrum vitae risus eget, vulputate aliquam nisi. dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit </p>
+            <div class="small-items__container">
+              <li class="timeline__item-small">
+                <article class="timeline-item-small__content">
+                  <div class="timeline-year-and-description-small__container">
+                    <h2 class="timeline-item-small__title">1990</h2>
+                    <p class="timeline-item-small__description">
+                      Maecenas sem eros, rutrum vitae risus eget, vulputate
+                      aliquam nisi. dolor sit amet consectetur adipiscing eli
+                      mattis sit phasellus mollis sit aliquam sit
+                    </p>
+                  </div>
+                  <div class="timeline-item-small-image__container">
+                    <img
+                      class="timeline-item-small__image"
+                      src="./images/image 2.png"
+                      alt="Pottery in 1990"
+                    />
+                  </div>
+                </article>
+              </li>
+
+              <li class="timeline__item-small">
+                <article class="timeline-item-small__content">
+                  <div class="timeline-year-and-description-small__container">
+                    <h2 class="timeline-item-small__title">2010</h2>
+                    <p class="timeline-item-small__description">
+                      Rutrum vitae risus eget, vulputate aliquam nisi ex gravida
+                      neque tempus. sit aliquam sit nullam neque ultrices.
+                    </p>
+                  </div>
+                  <div class="timeline-item-small-image__container">
+                    <img
+                      class="timeline-item-small__image"
+                      src="./images/image 3.png"
+                      alt="Pottery in 1990"
+                    />
+                  </div>
+                </article>
+              </li>
             </div>
-              <img class="timeline-content__image" src="./images/image 2.png" alt="Pottery in 1990">
-            </div>
-            </article>
-          </li>
+          </ul>
+        </div>
+        <div class="how-we-work__container container">
+          <!-- <article> -->
+          <div class="how-we-work-image-wrapper">
+            <img
+              class="how-we-work__image"
+              src="./images/image 4.png"
+              alt="How we work"
+            />
+          </div>
 
-          <li class="about__timeline-item">
-            <article class="about__timeline-content">
-              <div class="timeline-item__container">
-                <div class="year-and-text">
-              <h2 class="about__year">2010</h2>
-              <p class="about__text">Rutrum vitae risus eget, vulputate aliquam nisi ex gravida neque tempus. sit aliquam sit nullam neque ultrices.</p>
+          <div class="stages-of-work-wrapper">
+            <h2 class="how-we-work__title">How we work</h2>
+
+            <ul class="stages-of-work">
+              <li class="stage-of-work">
+                <p class="stage-of-work__title">Product design</p>
+                <p class="stage-of-work__description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing eli mattis
+                  sit <br />
+                  phasellus mollis.
+                </p>
+              </li>
+
+              <li class="stage-of-work">
+                <p class="stage-of-work__title">Crafted</p>
+                <p class="stage-of-work__description">
+                  Rutrum vitae risus eget, vulputate aliquam nisi ex gravida
+                  neque <br />
+                  tempus.
+                </p>
+              </li>
+
+              <li class="stage-of-work">
+                <p class="stage-of-work__title">Sell product</p>
+                <p class="stage-of-work__description">
+                  Maecenas sem eros, rutrum vitae risus eget, vulputate aliquam
+                  nisi.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- </article> -->
+        </div>
+
+        <div class="meet-our-team__container container">
+          <h2 class="meet-our-team__title">Meet our team</h2>
+
+          <div class="team-members-wrapper">
+            <ul class="team-members">
+              <li class="team-member">
+                <article class="team-member-content">
+                  <div class="team-member-image-wrapper">
+                    <img
+                      class="team-member__image"
+                      src="./images/image 5.png"
+                      alt="Team member"
+                    />
+                  </div>
+                  <div class="team-member-description-wrapper">
+                    <p class="team-member__title">Bernie Patterson</p>
+                    <p class="team-member__description">CEO & Founder</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="team-member">
+                <article class="team-member-content">
+                  <div class="team-member-image-wrapper">
+                    <img
+                      class="team-member__image"
+                      src="./images/image 6.png"
+                      alt="Team member"
+                    />
+                  </div>
+                  <div class="team-member-description-wrapper">
+                    <p class="team-member__title">Ophelia Vase</p>
+                    <p class="team-member__description">Creative Director</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="team-member">
+                <article class="team-member-content">
+                  <div class="team-member-image-wrapper">
+                    <img
+                      class="team-member__image"
+                      src="./images/image 7.png"
+                      alt="Team member"
+                    />
+                  </div>
+                  <div class="team-member-description-wrapper">
+                    <p class="team-member__title">Corbin Hossain</p>
+                    <p class="team-member__description">Artist</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="team-member">
+                <article class="team-member-content">
+                  <div class="team-member-image-wrapper">
+                    <img
+                      class="team-member__image"
+                      src="./images/image 8.png"
+                      alt="Team member"
+                    />
+                  </div>
+                  <div class="team-member-description-wrapper">
+                    <p class="team-member__title">Seren Bowl</p>
+                    <p class="team-member__description">Marketing</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sign-up__container">
+          <div class="sign-up-form__container container">
+            <form class="sign-up__form" action="">
+              <div class="sign-up-form-description">
+                <h3 class="sign-up-form__title">Sign up for emails</h3>
+                <h2 class="sign-up-form__description">
+                  For news, collections & more
+                </h2>
               </div>
-              <img class="timeline-content__image" src="./images/image 3.png" alt="Pottery in 210">
+
+              <div class="sign-up-form-input-and-button">
+                <div class="sign-up-form-input-wrapper">
+                  <input
+                    class="sign-up-form__input"
+                    type="text"
+                    placeholder="Enter your email address"
+                  />
+                  <input
+                    class="sign-up-form__input-mobile"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <div class="sign-up-form-button-wrapper">
+                  <button class="sign-up-form__button">Sign up</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer-content__conatiner container">
+          <div class="footer-description-wrapper">
+            <div class="footer-logo-wrapper">
+              <a class="footer__logo" href="#">
+                <img
+                  class="footer-logo"
+                  src="./icons/logo 2.svg"
+                  alt="Moon logo"
+                />
+              </a>
+            </div>
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipiscing elit aliquam mauris sed ma
+            </p>
+            <p class="footer__description-mobile">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</p>
+            <div class="footer-button-wrapper">
+              <a class="footer__button" href="#">
+                <div class="button-content-wrapper">
+                  <p class="footer-button__title">Get started</p>
+                  <img
+                    class="footer-button__icon"
+                    src="./icons/arrow rigth.svg"
+                    alt="Arrow right icon"
+                  />
+                </div>
+              </a>
             </div>
           </div>
-            </article>
-          </li>
-        </ul>
+
+          <div class="footer-menu-wrapper">
+            <div class="footer-menu-list-wrapper">
+              <p class="footer-menu__title">About us</p>
+              <ul class="footer-menu__items">
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Mission</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Our team</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Awards</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Testimonials</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-menu-list-wrapper">
+              <p class="footer-menu__title">Services</p>
+              <ul class="footer-menu__items">
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Web design</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Web development</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Mobile design</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">UX/UI designs</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Branding design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-menu-list-wrapper">
+              <p class="footer-menu__title">Portfolio</p>
+              <ul class="footer-menu__items">
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href=""
+                    >Corporate websites</a
+                  >
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">E-commerce</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Mobile apps</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">Landing pages</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a class="footer-menu__item-link" href="">UX/UI projects</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-  </main>
-</body>
+      <div class="copyright-container container">
+        <p class="copyright-content">
+          Copyright © 2023 Moon | All Rights Reserved | Terms and Conditions |
+          Privacy Policy
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
